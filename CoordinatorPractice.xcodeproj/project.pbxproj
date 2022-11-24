@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00D483BE28990548009366FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D483BD28990548009366FC /* AppDelegate.swift */; };
-		00D483C228990548009366FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D483C128990548009366FC /* ViewController.swift */; };
 		00D483C528990548009366FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D483C328990548009366FC /* Main.storyboard */; };
 		00D483C728990549009366FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D483C628990549009366FC /* Assets.xcassets */; };
 		00D483CA28990549009366FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D483C828990549009366FC /* LaunchScreen.storyboard */; };
@@ -23,7 +22,6 @@
 /* Begin PBXFileReference section */
 		00D483BA28990548009366FC /* CoordinatorPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D483BD28990548009366FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00D483C128990548009366FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00D483C428990548009366FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00D483C628990549009366FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D483C928990549009366FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				00D483BD28990548009366FC /* AppDelegate.swift */,
-				00D483C128990548009366FC /* ViewController.swift */,
 				00D483C328990548009366FC /* Main.storyboard */,
 				00D483C628990549009366FC /* Assets.xcassets */,
 				00D483C828990549009366FC /* LaunchScreen.storyboard */,
@@ -156,7 +153,6 @@
 				00D483D628990C09009366FC /* LoginCoordinator.swift in Sources */,
 				00D483DA289A0F16009366FC /* HomeCoordinator.swift in Sources */,
 				00D483D228990565009366FC /* Coordinator.swift in Sources */,
-				00D483C228990548009366FC /* ViewController.swift in Sources */,
 				00D483D42899072A009366FC /* AppCoordinator.swift in Sources */,
 				00D483BE28990548009366FC /* AppDelegate.swift in Sources */,
 				00D483DC289A1118009366FC /* HomeViewController.swift in Sources */,
