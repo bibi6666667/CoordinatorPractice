@@ -8,8 +8,14 @@
 import Foundation
 import UIKit
 
+protocol HomeViewControllerDelegate {
+    // MainViewController에서 발생하지만, 처리는 다른 객체에게 위임할 작업
+    func logout()
+}
+
 class HomeViewController: UIViewController {
     
+    var delegate: HomeViewControllerDelegate?
     weak var coordinator: HomeCoordinator?
     
     override func viewDidLoad() {
@@ -24,6 +30,6 @@ class HomeViewController: UIViewController {
     
     @objc
     func logoutButtonDidTap() {
-        coordinator?.logout()
+        self.delegate?.logout()
     }
 }

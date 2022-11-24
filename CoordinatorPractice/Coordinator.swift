@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol Coordinator: AnyObject { // class(deprecated) -> AnyObject로 변경
+protocol Coordinator: AnyObject {
     var childCoordinators: [Coordinator] { get set }
     var navigationController: UINavigationController { get set }
     
